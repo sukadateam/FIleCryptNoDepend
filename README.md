@@ -1,2 +1,7 @@
 # FIleCryptNoDepend
 Simple File Encryption with no dependencies!
+
+A finished project! 
+
+* Might add multi level scrambling. Where instead of it only running once, it's runs several of times over.
+* Password lock to tax_returns.txt might be added.
