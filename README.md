@@ -8,10 +8,12 @@ A finished project!
 
 Uses basic logic to encrypt files. Documenation will be made about how it works.
 
+DO NOT DECRYPT A FILE THAT'S NOT ENCRYPTED. YOU CANNOT DECRYPT IT AFTERWARDS, EVEN IF YOU INSTEAD DID ENCRYPT.
+
 Command Line Logic:
   * -e, -E \<file> = Encrypt File, Searches for tax_returns.txt
   * -d, -D \<file> = Decrypt File, Searches for tax_returns.txt
-  * -k, -K \<key> = The key to decrypt the file. Known as "taxHash" var inside of tax_returns.txt
+  * -k, -K \<key> = Specify the key to decrypt the file. Known as "taxHash" var inside of tax_returns.txt
 
 Examples:
   * python Code_Discovery.py -e "filepath"
